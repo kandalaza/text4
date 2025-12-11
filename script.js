@@ -26,11 +26,3 @@ console.log(removeFirstOccurrences('I like legends', 'end'));
 console.log(removeFirstOccurrences('ABABAB' , 'BA'));              
 
 
-const getRectangleString = (w, h) =>
-    (w < 2 || h < 2) 
-        ? '*'.repeat(w) 
-        : '*'.repeat(w) + '\n' 
-        + ('*' + ' '.repeat(w - 2) + '*\n').repeat(h - 2) 
-        + '*'.repeat(w);
-
-console.log(getRectangleString(5, 4));
